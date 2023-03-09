@@ -24,8 +24,6 @@ elif operation == '*':                      # Multiplication operation
 elif operation == '%':                      # Modulus operation
     result = num1 % num2
 elif operation == '**':                     # Power operation
-    if num1 < num2:
-        result = num1 ** num2
     result = num1 ** num2
 elif operation == '/':                      # Division operation
     if num2 == 0:

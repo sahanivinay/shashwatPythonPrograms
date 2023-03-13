@@ -1,0 +1,1 @@
+A PDB file is typically created from source files during compilation. PDB stores a list of all symbols in a module with their addresses and possibly the name of the file and the line on which the symbol was declared. This symbol information is not stored in the module itself, because it takes up a lot of space.

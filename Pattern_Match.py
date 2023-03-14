@@ -1,6 +1,6 @@
 # Python Program to Print Lines
 # Containing Given String in File
-
+file_name = input("Enter the filename: ")
 # using try catch except to
 # handle file not found error.
 
@@ -9,7 +9,7 @@ def pattern():
     try:
 
         # opening and reading the file
-        file_read = open("253l.pdb", "r")
+        file_read = open(file_name, "r")
 
         # asking the user to enter the string to be
         # searched
